@@ -1,0 +1,78 @@
+
+.container {
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+  background-color: #6a0dad; 
+  color: white;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form container styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  align-items: center;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+/* Input field styling */
+.formInput {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.formInput:focus {
+  border-color: #6a0dad;
+}
+
+/* Button styling */
+.formButton {
+  padding: 12px 20px;
+  background-color: #6a0dad; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formButton:hover {
+  background-color: #4b007e; 
+}
+
+/* Success message styling */
+.successMessage {
+  margin-top: 20px;
+  color: #4caf50; 
+  font-size: 1.2rem; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .formInput,
+  .formButton {
+    width: 100%; 
+  }
+}
+.homeButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4d4f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #005bb5;
+}
